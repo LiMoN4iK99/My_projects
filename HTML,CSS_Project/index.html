@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="normalize.css">
+    <script src="https://kit.fontawesome.com/8c01d5b7c8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header-region">
+        <div class="site-logo">
+            <img src="img/logo.svg" class="image">
+        </div>
+        <div class="site-name">
+            <h1 class="title">Календарь</h1>
+            <p class="description">
+             Выберите цвет, добавьте месяцы, кликайте по нужным датам.
+            </p>
+        </div>
+        <div class="share-calendar">
+          <div>
+            <a href="#" class="main-button">Сохранить</a>
+          </div>
+            <div class="social-networks">
+              <!-- AddToAny BEGIN -->
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                <a class="a2a_button_facebook"></a>
+                <a class="a2a_button_twitter"></a>
+                <a class="a2a_button_pinterest"></a>
+                <a class="a2a_button_linkedin"></a>
+                </div>
+              <script async src="https://static.addtoany.com/menu/page.js"></script>
+              <!-- AddToAny END -->
+            </div>
+        </div>
+    </header>
+    
+    <section class="control-panel">
+        <div class="_container">
+            <div class="layout">
+                <div class="color-choise">
+                    <p class="label">Активный цвет</p>
+                    <select class="dropdown">
+                        <option value="red" >красный</option>
+                        <option value="blue">синий</option>
+                        <option value="yellow">желтый</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="calendar-list">
+        <div class="_container">
+            <div class="layout">
+                <div class="single-calendar">
+                    <table class="calendar">
+                       <caption class="monthname"><i class="deletecalendar calendarcontrol fa-regular fa-square-minus"></i> Июль <i class="addcalendar calendarcontrol fa-regular fa-square-plus"></i></caption>
+                            <tr class="weekdays">
+                                <th class="dayname">Пн</th>
+                                <th class="dayname">Вт</th>
+                                <th class="dayname">Ср</th>
+                                <th class="dayname">Чт</th>
+                                <th class="dayname">Пт</th>
+                                <th class="dayname">Сб</th>
+                                <th class="dayname-red">Вс</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">1</th>
+                                <th class="daynumber">2</th>
+                                <th class="daynumber">3</th>
+                                <th class="daynumber">4</th>
+                                <th class="daynumber">5</th>
+                                <th class="daynumber">6</th>
+                                <th class="daynumber-red">7</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">8</th>
+                                <th class="daynumber">9</th>
+                                <th class="daynumber">10</th>
+                                <th class="daynumber">11</th>
+                                <th class="daynumber">12</th>
+                                <th class="daynumber">13</th>
+                                <th class="daynumber-red">14</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">15</th>
+                                <th class="daynumber">16</th>
+                                <th class="daynumber">17</th>
+                                <th class="daynumber">18</th>
+                                <th class="daynumber">19</th>
+                                <th class="daynumber">20</th>
+                                <th class="daynumber-red">21</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">22</th>
+                                <th class="daynumber">23</th>
+                                <th class="daynumber">24</th>
+                                <th class="daynumber">25</th>
+                                <th class="daynumber">26</th>
+                                <th class="daynumber">27</th>
+                                <th class="daynumber-red">28</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">29</th>
+                                <th class="daynumber">30</th>
+                                <th class="daynumber">31</th>
+                            </tr>
+                        </table>
+                </div>
+
+                <div class="single-calendar">
+                    <table class="calendar february">
+                        <caption class="monthname"><i class="deletecalendar calendarcontrol fa-regular fa-square-minus"></i> Август <i class="addcalendar calendarcontrol fa-regular fa-square-plus"></i></caption>
+                            <tr class="weekdays">
+                                <th class="dayname">Пн</th>
+                                <th class="dayname">Вт</th>
+                                <th class="dayname">Ср</th>
+                                <th class="dayname">Чт</th>
+                                <th class="dayname">Пт</th>
+                                <th class="dayname">Сб</th>
+                                <th class="dayname-red">Вс</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">1</th>
+                                <th class="daynumber">2</th>
+                                <th class="daynumber">3</th>
+                                <th class="daynumber">4</th>
+                                <th class="daynumber">5</th>
+                                <th class="daynumber">6</th>
+                                <th class="daynumber-red">7</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">8</th>
+                                <th class="daynumber">9</th>
+                                <th class="daynumber">10</th>
+                                <th class="daynumber">11</th>
+                                <th class="daynumber">12</th>
+                                <th class="daynumber">13</th>
+                                <th class="daynumber-red">14</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">15</th>
+                                <th class="daynumber">16</th>
+                                <th class="daynumber">17</th>
+                                <th class="daynumber">18</th>
+                                <th class="daynumber">19</th>
+                                <th class="daynumber">20</th>
+                                <th class="daynumber-red">21</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">22</th>
+                                <th class="daynumber">23</th>
+                                <th class="daynumber">24</th>
+                                <th class="daynumber">25</th>
+                                <th class="daynumber">26</th>
+                                <th class="daynumber">27</th>
+                                <th class="daynumber-red">28</th>
+                            </tr>
+                            
+                        </table>
+                </div>
+
+                <div class="single-calendar">
+                    <table class="calendar">
+                        <caption class="monthname"><i class="deletecalendar calendarcontrol fa-regular fa-square-minus"></i> Сентябрь <i class="addcalendar calendarcontrol fa-regular fa-square-plus"></i></caption>
+                            <tr class="weekdays">
+                                <th class="dayname">Пн</th>
+                                <th class="dayname">Вт</th>
+                                <th class="dayname">Ср</th>
+                                <th class="dayname">Чт</th>
+                                <th class="dayname">Пт</th>
+                                <th class="dayname">Сб</th>
+                                <th class="dayname-red">Вс</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">1</th>
+                                <th class="daynumber">2</th>
+                                <th class="daynumber">3</th>
+                                <th class="daynumber">4</th>
+                                <th class="daynumber">5</th>
+                                <th class="daynumber">6</th>
+                                <th class="daynumber-red">7</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">8</th>
+                                <th class="daynumber">9</th>
+                                <th class="daynumber">10</th>
+                                <th class="daynumber">11</th>
+                                <th class="daynumber">12</th>
+                                <th class="daynumber">13</th>
+                                <th class="daynumber-red">14</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">15</th>
+                                <th class="daynumber">16</th>
+                                <th class="daynumber">17</th>
+                                <th class="daynumber">18</th>
+                                <th class="daynumber">19</th>
+                                <th class="daynumber">20</th>
+                                <th class="daynumber-red">21</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">22</th>
+                                <th class="daynumber">23</th>
+                                <th class="daynumber">24</th>
+                                <th class="daynumber">25</th>
+                                <th class="daynumber">26</th>
+                                <th class="daynumber">27</th>
+                                <th class="daynumber-red">28</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">29</th>
+                                <th class="daynumber">30</th>
+                            </tr>
+                        </table>
+                </div>
+
+                <div class="single-calendar">
+                    <table class="calendar">
+                        <caption class="monthname"><i class="deletecalendar calendarcontrol fa-regular fa-square-minus"></i> Октябрь <i class="addcalendar calendarcontrol fa-regular fa-square-plus"></i></caption>
+                            <tr class="weekdays">
+                                <th class="dayname">Пн</th>
+                                <th class="dayname">Вт</th>
+                                <th class="dayname">Ср</th>
+                                <th class="dayname">Чт</th>
+                                <th class="dayname">Пт</th>
+                                <th class="dayname">Сб</th>
+                                <th class="dayname-red">Вс</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">1</th>
+                                <th class="daynumber">2</th>
+                                <th class="daynumber">3</th>
+                                <th class="daynumber">4</th>
+                                <th class="daynumber">5</th>
+                                <th class="daynumber">6</th>
+                                <th class="daynumber-red">7</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">8</th>
+                                <th class="daynumber">9</th>
+                                <th class="daynumber">10</th>
+                                <th class="daynumber">11</th>
+                                <th class="daynumber">12</th>
+                                <th class="daynumber">13</th>
+                                <th class="daynumber-red">14</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">15</th>
+                                <th class="daynumber">16</th>
+                                <th class="daynumber">17</th>
+                                <th class="daynumber">18</th>
+                                <th class="daynumber">19</th>
+                                <th class="daynumber">20</th>
+                                <th class="daynumber-red">21</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">22</th>
+                                <th class="daynumber">23</th>
+                                <th class="daynumber">24</th>
+                                <th class="daynumber">25</th>
+                                <th class="daynumber">26</th>
+                                <th class="daynumber">27</th>
+                                <th class="daynumber-red">28</th>
+                            </tr>
+                            <tr class="week">
+                                <th class="daynumber">29</th>
+                                <th class="daynumber">30</th>
+                            </tr>
+                        </table>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="register-region">
+        <div class="_container">
+            <div class="layout">
+                <form class="form-normal" action="index.html" method="get">
+                    <input class="input" type="text" name="name" id="name" placeholder="Имя" required>
+                    <input class="input" type="email" name="email" placeholder="email" required>
+                    <input class="input" type="password" name="password" placeholder="Пароль" required>
+                    <select class="select" name="age">
+                       <option value="0">- Возраст -</option>
+                       <option value="10">1-10</option>
+                       <option value="20">11-20</option>
+                       <option value="30">21-30</option>
+                       <option value="40">31-40</option>
+                    </select>
+                    <label class="checkbox"><input type="checkbox" name="subscribe"> Подписаться</label>
+
+                    <label class="radio"><input type="radio" name="color" value="red"> Красный</label>
+                    <label class="radio"><input type="radio" name="color" value="green"> Зеленый</label>
+                    <label class="radio"><input type="radio" name="color" value="black"> Черный</label>
+
+                    <input class="submit main-button -big" type="submit" value="Зарегистрироваться">                    
+                </form>
+            </div>
+        </div>
+    </div>
+     
+</body>
+</html>
